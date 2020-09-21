@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>Debounce Test</title>
+</head>
+<style>
+
+h1{
+    color: darkgrey;
+    font-family: monospace;
+    transition: 0.6s;
+}
+
+h1:hover{
+    color: rgb(107, 105, 105);
+    font-family: monospace;
+}
+
+.input1{
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid darkgrey;
+    transition: 0.6s;
+    font-size: 30px;
+    padding: 7px;
+    padding-bottom: 9px;
+}
+
+.input1:hover{
+    border: 2px solid rgb(107, 105, 105);
+    
+}
+
+.input1:focus{
+    outline: none;
+}
+</style>
+
+<body>
+    <h1>Give some input</h1>
+    <input class="input1" id="debounce"></input>
+    <h1>Check in console after giving input....</h1>
+    <script type="text/javascript" src="function.js"></script>
+</body>
+
+</html>
