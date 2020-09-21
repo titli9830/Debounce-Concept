@@ -4,7 +4,7 @@
 
 ### Notes:
 
-This project is a simple example of Debounce concept using Java Script.It is made using Java Script,HTML,CSS. This project will show how to implement Debounce in your code using setTimeout() & wait to execute your function after certain time-period.
+This project is a simple example of Debounce concept using Java Script.It is made using Java Script,HTML,CSS. This project will show how to implement Debounce in your code using setTimeout() & wait to execute your function after certain time-period.For this project you should open console tab on the browser to see the result.
 
 ### Output
 
