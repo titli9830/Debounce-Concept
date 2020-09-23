@@ -10,10 +10,9 @@ function onPageLoad() {
         }
     }
     input.addEventListener('keyup', debounce(function () {
-        console.log(input.value)
+        console.log(input.value);
+        alert(input.value);
     }, 3000));
-
-
 }
 
 onPageLoad();
